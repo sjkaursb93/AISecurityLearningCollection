@@ -1,4 +1,4 @@
-# AISecurityLearningCollection
+# AI Security Learning Collection
 The purpose of this learning collection is to provide links to get you started on the journey of AI security implementation in Azure. The content talks about:
 - Azure Open AI Security Best Practices
 - LLMs Security Best Practices
