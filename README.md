@@ -41,6 +41,7 @@ Azure OpenAI is part of Azure Cognitive Services. When setting up OpenAI in azur
     - [ATLAS Matrix | MITRE ATLAS™](https://atlas.mitre.org/matrices/ATLAS/)
 - The first step – understand the attack. The next step what are the steps to prevent the attacks. Note: not one solution fits all. Something I have learnt and implemented over and over is what is the risk it poses to your organization. How you measure the risk, what are the compensating controls? I’ll add some links to this section to help you make that decision to a step forward to protect your AI solutions.
 - Threat Modelling - – This guide [Threat Modeling LLM Applications - AI Village](https://aivillage.org/large language models/threat-modeling-llm/) explains how use trust boundaries and DFDs to do threat modelling for your LLMs. In addition, it also provides recommendations to remediate the vulnerabilities.
+     -  Check this article as well for threat modelling [Threat-Modeling AI ML](https://learn.microsoft.com/en-us/security/engineering/threat-modeling-aiml)
 - Monitoring is important to detect and monitor the LLM interactions for any undesired behaviors.
     - [Monitoring models in production (preview) - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-model-monitoring?view=azureml-api-2)
     - [Monitor performance of models deployed to production (preview) - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-monitor-model-performance?view=azureml-api-2&tabs=azure-cli)
