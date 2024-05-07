@@ -40,7 +40,8 @@ Azure OpenAI is part of Azure Cognitive Services. When setting up OpenAI in azur
 - Check the updated guidance published by OWASP and MITRE. What is OWASP top 10 list – It is a list of top ten critical vulnerabilities often seen in LLM applications. To understand vulnerabilities, their potential impact, ease of exploitation etc, visit these links.
     - [OWASP Top 10 for Large Language Model Applications | OWASP Foundation](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
     - [ATLAS Matrix | MITRE ATLAS™](https://atlas.mitre.org/matrices/ATLAS/)
-- The first step – understand the attack. The next step what are the steps to prevent the attacks. Note: not one solution fits all. Something I have learnt and implemented over and over is what is the risk it poses to your organization. How you measure the risk, what are the compensating controls? I’ll add some links to this section to help you make that decision to a step forward to protect your AI solutions.\
+- The first step – understand the attack. The next step what are the steps to prevent the attacks. Note: not one solution fits all. Something I have learnt and implemented over and over is what is the risk it poses to your organization. How you measure the risk, what are the compensating controls? I’ll add some links to this section to help you make that decision to a step forward to protect your AI solutions.
+- Here is a nice read on [Catastrophic AI Risks](https://www.safe.ai/ai-risk)
 - One of the best place to start is these [guidelines for creating secure AI systems](https://www.ncsc.gov.uk/files/Guidelines-for-secure-AI-system-development.pdf). These guidelines will help AI systems to function as intended, are available when needed and work without revealing the sensitive data to unauthorized parties.
 - Use [AI Incident Databases](https://incidentdatabase.ai/) to check the real world harms scenarios by deployment of AI Systems.
 - Use [AI Vulnerability Database](https://avidml.org/#:~:text=AI%20Vulnerability%20Database%20%28AVID%29%20is%20an%20open-source%20knowledge,for%20Artificial%20Intelligence%20%28AI%29%20models%2C%20datasets%2C%20and%20systems.). This is an open source knowledge base of failure modes for AI models, datasets and systems.
@@ -57,7 +58,7 @@ Azure OpenAI is part of Azure Cognitive Services. When setting up OpenAI in azur
 - [How to Evaluate LLMs: A Complete Metric Framework - Microsoft Research](https://www.microsoft.com/en-us/research/group/experimentation-platform-exp/articles/how-to-evaluate-llms-a-complete-metric-framework/)
 - [Securing Your LLM’s based Applications: Ways to Prevent Prompt Injection | by Aashir Javed | Medium](https://medium.com/@aashirjaved/securing-your-llms-based-applications-ways-to-prevent-prompt-injection-c9968472e7a8#:~:text=Ways%20to%20prevent%20prompt%20injection%201%20Sanitize%20the,Prompt%20debiasing%20...%204%20GPT-3%20vs%20GPT-4%20)
 - [PyRIT for generative AI Red teaming](https://www.microsoft.com/en-us/security/blog/2024/02/22/announcing-microsofts-open-automation-framework-to-red-team-generative-ai-systems/)
-
+- [AI Security 101](https://atlas.mitre.org/resources/ai-security-101#llm-security)
 
 
   
