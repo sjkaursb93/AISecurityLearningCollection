@@ -19,46 +19,52 @@ Azure OpenAI is part of Azure Cognitive Services. When setting up OpenAI in azur
 - Here is the FAQ list of OpenAI, which can help answer general questions related to model, data, privacy etc. - [Azure OpenAI Service frequently asked questions - Azure AI service](https://learn.microsoft.com/en-us/azure/ai-services/openai/faq#using-your-data)
 - **Identity**  - Identity is the first entry point and must be secure. RBAC helps implement least privileges which is the one of the principles of zero trust. Use this guidance to implement RBAC in Azure OpenAI - [Role-based access control for Azure OpenAI - Azure AI services](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/role-based-access-control)
 - **OpenAI Managed Identity** -  The use of managed identity lets you authorize access to OpenAI without storing the credentials in the resources, e.g. VMs. Use this link to configure managed identities [How to configure Azure OpenAI Service with managed identities - Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/managed-identity)
-- **Infratructure** - When setting up OpenAI, Azure allows you to use Selected Network/Private Endpoints only connection to OpenAI. Considering Zero Trust again – this set up validates the concept of Verify Explicitly, Assume Breach and Least Privileges. Here is the networking guidance for OpenAI - [Configure Virtual Networks for Azure AI services - Azure AI services](https://learn.microsoft.com/en-us/azure/ai-services/cognitive-services-virtual-networks?context=%2Fazure%2Fai-services%2Fopenai%2Fcontext%2Fcontext&tabs=portal)
+- **Infrastructure** - When setting up OpenAI, Azure allows you to use Selected Network/Private Endpoints only connection to OpenAI. Considering Zero Trust again – this set up validates the concept of Verify Explicitly, Assume Breach and Least Privileges. Here is the networking guidance for OpenAI - [Configure Virtual Networks for Azure AI services - Azure AI services](https://learn.microsoft.com/en-us/azure/ai-services/cognitive-services-virtual-networks?context=%2Fazure%2Fai-services%2Fopenai%2Fcontext%2Fcontext&tabs=portal)
 - **Data** is the ultimate target of any breach. We use defense in depth layered approach starting from Identity, Networking, Keys and ultimately data. Use this article to use OpenAI on your data securely - [Using your data with Azure OpenAI securely - Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/use-your-data-securely)
 - **Keys** - It is another important thing to protect. There are many examples out there which shows the reason of breach as “hard coded credentials”. Use this article to learn how to protect the API and Endpoint Keys using Azure Key vault - [How to Secure Azure OpenAI Keys Using Environment Variables, Azure Vault, and Streamlit Secrets - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/how-to-secure-azure-openai-keys-using-environment-variables/ba-p/3821162#:~:text=To%20ensure%20the%20security%20and%20confidentiality%20of%20your,audit%20key%20usage%20to%20detect%20any%20unauthorized%20access.)
-- **Monitoring** -  Monitoring and Observalibility is important to collect metrics which in turn helps you track security, peformance and much more. Use this link to get started with OpenAI monitoring [Logging and Monitoring of Azure OpenAI](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/openai/architecture/log-monitor-azure-openai)
+- **Monitoring** -  Monitoring and Observability is important to collect metrics which in turn helps you track security, performance and much more. Use this link to get started with OpenAI monitoring [Logging and Monitoring of Azure OpenAI](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/openai/architecture/log-monitor-azure-openai)
 - Here is the additional general guidance to help implement the secure architecture for Azure Cognitive Services including Azure OpenAI. : [Azure security baseline for Cognitive Services](https://learn.microsoft.com/en-us/security/benchmark/azure/baselines/cognitive-services-security-baseline#security-profile)
-
-## Other Blogs
-- https://journeyofthegeek.com/?s=openai&submit=Search
 
 # When you start working on OpenAI Models in Azure
 - **Monitoring** - is the most important security concept which results in accountability (verify explicitly).  Use this preview feature to start monitoring for GenAI apps in production - [Model monitoring for generative AI applications (preview) - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/how-to-monitor-generative-ai-applications?view=azureml-api-2)
-- **Content Filtering** - Integrated into Azure Open AI service, content filtering can help ensemble of multiple class classification models to detect violence, hate, sexual and self harm at 4 levels safe, low, medium, and high.It also provide optional binary classifiers to detect jailbreaking risk. More information can be found here [How to use content filters (preview) with Azure OpenAI Service - Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/content-filters)
-- **Jailbreaking risk detection** - Jailbreak is a technique which takes advantage of weakness of prompting system. . Jailbreaking risk detection is available as an option with new Azure AI Content Safety Studio. [Quickstart: Content Safety Studio - Azure AI services](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/studio-quickstart) && [Quickstart: Detect jailbreak risk (preview) - Azure AI services](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/quickstart-jailbreak)
-## Other Blogs
-- https://github.com/rod-trent/OpenAISecurity/tree/main/Must_Learn
+- **Content Filtering** - Integrated into Azure Open AI service, content filtering can help ensemble of multiple class classification models to detect violence, hate, sexual and self harm at 4 levels safe, low, medium, and high.It also provide optional binary classifiers to detect jail breaking risk. More information can be found here [How to use content filters (preview) with Azure OpenAI Service - Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/content-filters)
+- **Jailbreaking risk detection and protection** - Prompt Shields protects applications powered by foundation models from two types of attacks direct (jailbreak) and indirect prompt injection attacks. This feature is built on existing jailbreak risk detection feature. [Check this out for more details](https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/azure-ai-announces-prompt-shields-for-jailbreak-and-indirect/ba-p/4099140). [Quick start Prompt Shields](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/quickstart-jailbreak#analyze-attacks).
+- **Using Defender for cloud for to secure the AI applications** - It is the new [security posture and threat protection](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/secure-your-ai-applications-from-code-to-runtime-with-microsoft/ba-p/4127665) capabilities to enable organizations to protect their enterprise-built Gen AI applications through the entire life cycle.
 
 # LLM Security Guidance
-## LLM Specific Threats 
+## Attacks on LLMs
 - Check the updated guidance published by OWASP and MITRE. What is OWASP top 10 list – It is a list of top ten critical vulnerabilities often seen in LLM applications. To understand vulnerabilities, their potential impact, ease of exploitation etc, visit these links.
     - [OWASP Top 10 for Large Language Model Applications | OWASP Foundation](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
     - [ATLAS Matrix | MITRE ATLAS™](https://atlas.mitre.org/matrices/ATLAS/)
+
+## Understanding the Risks and Attack Surfaces
 - The first step – understand the attack. The next step what are the steps to prevent the attacks. Note: not one solution fits all. Something I have learnt and implemented over and over is what is the risk it poses to your organization. How you measure the risk, what are the compensating controls? I’ll add some links to this section to help you make that decision to a step forward to protect your AI solutions.
-- Here is a nice read on [Catastrophic AI Risks](https://www.safe.ai/ai-risk)
-- One of the best place to start is these [guidelines for creating secure AI systems](https://www.ncsc.gov.uk/files/Guidelines-for-secure-AI-system-development.pdf). These guidelines will help AI systems to function as intended, are available when needed and work without revealing the sensitive data to unauthorized parties.
-- Use [AI Incident Databases](https://incidentdatabase.ai/) to check the real world harms scenarios by deployment of AI Systems.
-- Use [AI Vulnerability Database](https://avidml.org/#:~:text=AI%20Vulnerability%20Database%20%28AVID%29%20is%20an%20open-source%20knowledge,for%20Artificial%20Intelligence%20%28AI%29%20models%2C%20datasets%2C%20and%20systems.). This is an open source knowledge base of failure modes for AI models, datasets and systems.
-- 
+    - Here is a nice read on [Catastrophic AI Risks](https://www.safe.ai/ai-risk)
+    - Use [AI Incident Databases](https://incidentdatabase.ai/) to check the real world harms scenarios by deployment of AI Systems.
+    - Use [AI Vulnerability Database](https://avidml.org/#:~:text=AI%20Vulnerability%20Database%20%28AVID%29%20is%20an%20open-source%20knowledge,for%20Artificial%20Intelligence%20%28AI%29%20models%2C%20datasets%2C%20and%20systems.). This is an open source knowledge base of failure modes for AI models, datasets and systems.
+    - Use this [AI Risk Database](https://airisk.io/) to check the model in AI risk database.
 - Threat Modelling - – This guide [Threat Modeling LLM Applications - AI Village](https://aivillage.org/large%20language%20models/threat-modeling-llm/) explains how use trust boundaries and DFDs to do threat modelling for your LLMs. In addition, it also provides recommendations to remediate the vulnerabilities.
-- Use this document to understand the questions for threat modelling. It also provides the detail on specific tasks and steps to protect against these threats  Check this article as well for threat modelling [Threat-Modeling AI ML](https://learn.microsoft.com/en-us/security/engineering/threat-modeling-aiml)
+    - Use this document to understand the questions for threat modelling. It also provides the detail on specific tasks and steps to protect against these threats  Check this article as well for threat modelling [Threat-Modeling AI ML](https://learn.microsoft.com/en-us/security/engineering/threat-modeling-aiml)
+
+# Best Practices to Remediate vulnerabilities and reduce the attack surface
+- One of the best place to start is these [guidelines for creating secure AI systems](https://www.ncsc.gov.uk/files/Guidelines-for-secure-AI-system-development.pdf). These guidelines will help AI systems to function as intended, are available when needed and work without revealing the sensitive data to unauthorized parties.
 - Monitoring is important to detect and monitor the LLM interactions for any undesired behaviors.
     - [Monitoring models in production (preview) - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-model-monitoring?view=azureml-api-2)
     - [Monitor performance of models deployed to production (preview) - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-monitor-model-performance?view=azureml-api-2&tabs=azure-cli)
-
-# General Best Practices and Additional Links
 - Use of Moderation API if using OpenAI [Moderation - OpenAI API](https://platform.openai.com/docs/guides/moderation) to evaluate use inputs before sending them to OpenAI’s completion or chat API.
-- Use this [AI Risk Database](https://airisk.io/) to check the model in AI risk database.
+- [PyRIT for generative AI Red teaming](https://www.microsoft.com/en-us/security/blog/2024/02/22/announcing-microsofts-open-automation-framework-to-red-team-generative-ai-systems/)
+- [Best practices to architect secure generative AI applications](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/best-practices-to-architect-secure-generative-ai-applications/ba-p/4116661)
+- [HiddenLayer Model Scanner](https://techcommunity.microsoft.com/t5/ai-ai-platform-blog/hiddenlayer-model-scanner-helps-developers-assess-the-security/ba-p/4140576) helps developers assess the security of open models in the model catalog
+
+# Additional Resources
+
 - [How to Evaluate LLMs: A Complete Metric Framework - Microsoft Research](https://www.microsoft.com/en-us/research/group/experimentation-platform-exp/articles/how-to-evaluate-llms-a-complete-metric-framework/)
 - [Securing Your LLM’s based Applications: Ways to Prevent Prompt Injection | by Aashir Javed | Medium](https://medium.com/@aashirjaved/securing-your-llms-based-applications-ways-to-prevent-prompt-injection-c9968472e7a8#:~:text=Ways%20to%20prevent%20prompt%20injection%201%20Sanitize%20the,Prompt%20debiasing%20...%204%20GPT-3%20vs%20GPT-4%20)
-- [PyRIT for generative AI Red teaming](https://www.microsoft.com/en-us/security/blog/2024/02/22/announcing-microsofts-open-automation-framework-to-red-team-generative-ai-systems/)
 - [AI Security 101](https://atlas.mitre.org/resources/ai-security-101#llm-security)
+- [Navigating New Application Security Challenges Posed By GenAI](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/navigating-new-application-security-challenges-posed-by-genai/ba-p/4128243)
+- [GitHub Repo by Omar Santos](https://github.com/The-Art-of-Hacking/h4cker/tree/master/ai_research/AI%20Security%20Best%20Practices)
+- - https://journeyofthegeek.com/?s=openai&submit=Search
+- https://github.com/rod-trent/OpenAISecurity/tree/main/Must_Learn
 
 
   
