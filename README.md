@@ -55,6 +55,8 @@ Azure OpenAI is part of Azure Cognitive Services. When setting up OpenAI in azur
 - [PyRIT for generative AI Red teaming](https://www.microsoft.com/en-us/security/blog/2024/02/22/announcing-microsofts-open-automation-framework-to-red-team-generative-ai-systems/)
 - [Best practices to architect secure generative AI applications](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/best-practices-to-architect-secure-generative-ai-applications/ba-p/4116661)
 - [HiddenLayer Model Scanner](https://techcommunity.microsoft.com/t5/ai-ai-platform-blog/hiddenlayer-model-scanner-helps-developers-assess-the-security/ba-p/4140576) helps developers assess the security of open models in the model catalog
+- [LLMs Security Guidance](https://learn.microsoft.com/en-us/ai/playbook/technology-guidance/generative-ai/mlops-in-openai/security/security-recommend)
+- [LLMs Security Planning](https://learn.microsoft.com/en-us/ai/playbook/technology-guidance/generative-ai/mlops-in-openai/security/security-plan-llm-application)
 
 # Additional Resources
 
@@ -63,7 +65,7 @@ Azure OpenAI is part of Azure Cognitive Services. When setting up OpenAI in azur
 - [AI Security 101](https://atlas.mitre.org/resources/ai-security-101#llm-security)
 - [Navigating New Application Security Challenges Posed By GenAI](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/navigating-new-application-security-challenges-posed-by-genai/ba-p/4128243)
 - [GitHub Repo by Omar Santos](https://github.com/The-Art-of-Hacking/h4cker/tree/master/ai_research/AI%20Security%20Best%20Practices)
-- - https://journeyofthegeek.com/?s=openai&submit=Search
+- https://journeyofthegeek.com/?s=openai&submit=Search
 - https://github.com/rod-trent/OpenAISecurity/tree/main/Must_Learn
 
 
