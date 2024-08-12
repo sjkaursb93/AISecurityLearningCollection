@@ -73,6 +73,6 @@ Azure OpenAI is part of Azure Cognitive Services. When setting up OpenAI in azur
 - [Inside AI Security with Mark Russinovich](https://build.microsoft.com/en-US/sessions/d29a16d5-f9ea-4f5b-9adf-fae0bd688ff3?source=sessions)
 - https://journeyofthegeek.com/?s=openai&submit=Search
 - https://github.com/rod-trent/OpenAISecurity/tree/main/Must_Learn
-
+- [Not with a bug but with a sticker references](https://www.ram-shankar.com/papers)  
 
   
