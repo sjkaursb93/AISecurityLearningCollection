@@ -44,3 +44,29 @@ Ensure that only authorized users and applications can access Azure OpenAI resou
 Azure OpenAI supports secure networking through Selected Networks and Private Endpoints, enabling access only from trusted virtual networks. This setup aligns with Zero Trust principles by enforcing explicit verification, minimizing exposure, and assuming breach. It ensures that AI services are accessible only through tightly controlled and monitored network paths.
 
 **Reference:** [Azure Cognitive Services and Virtual Networks](https://learn.microsoft.com/en-us/azure/ai-services/cognitive-services-virtual-networks?tabs=portal)
+
+## Data
+
+
+Next step, your data. How to configure Azure OpenAI on your data with  focus on secure, scalable, and compliant deployment? The reference walks you through setting up Azure AI Search, Azure Storage, and Azure OpenAI with virtual networks, private endpoints, and managed identities. This also covers implementing document-level access control using Microsoft Entra ID, enabling fine-grained permissions for enterprise data.
+
+**Reference:** [Use your data securely with Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/use-your-data-securely)
+
+## Keys
+
+
+These are critical assets that must be secured. Many security breaches have been traced back to hard-coded credentials in code. Refer to the link to learn how to protect the API Keys.
+
+**Reference:** [How to secure Azure OpenAI keys using environment variables, Azure Vault, and more](https://techcommunity.microsoft.com/blog/healthcareandlifesciencesblog/how-to-secure-azure-openai-keys-using-environment-variables-azure-vault-and-stre/3821162)
+
+
+## Monitoring
+
+Monitoring and Observability are essential for collecting metrics that help you track security, performance, and operational health of your Azure OpenAI workloads. These insights enable proactive issue detection, cost optimization, and compliance enforcement.
+
+
+
+**Reference:** 
+- [Monitor Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/monitor-openai)
+- [Monitor Azure OpenAI Reference](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/monitor-openai-reference)
+- [Observability concepts in Azure AI Foundry](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/observability)

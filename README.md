@@ -13,13 +13,7 @@ Keep in mind the principles of **Responsible AI.** The purpose of the RAI initia
 - Other RAI Frameworks
      - [OpenAI Safety](https://openai.com/safety)
  
-# OpenAI Security Best Practices
 
-
-- **Data** is the ultimate target of any breach. We use defense in depth layered approach starting from Identity, Networking, Keys and ultimately data. Use this article to use OpenAI on your data securely - [Using your data with Azure OpenAI securely - Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/use-your-data-securely)
-- **Keys** - It is another important thing to protect. There are many examples out there which shows the reason of breach as “hard coded credentials”. Use this article to learn how to protect the API and Endpoint Keys using Azure Key vault - [How to Secure Azure OpenAI Keys Using Environment Variables, Azure Vault, and Streamlit Secrets - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/how-to-secure-azure-openai-keys-using-environment-variables/ba-p/3821162#:~:text=To%20ensure%20the%20security%20and%20confidentiality%20of%20your,audit%20key%20usage%20to%20detect%20any%20unauthorized%20access.)
-- **Monitoring** -  Monitoring and Observability is important to collect metrics which in turn helps you track security, performance and much more. Use this link to get started with OpenAI monitoring [Logging and Monitoring of Azure OpenAI](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/openai/architecture/log-monitor-azure-openai)
-- Here is the additional general guidance to help implement the secure architecture for Azure Cognitive Services including Azure OpenAI. : [Azure security baseline for Cognitive Services](https://learn.microsoft.com/en-us/security/benchmark/azure/baselines/cognitive-services-security-baseline#security-profile)
 
 # When you start working on OpenAI Models in Azure
 - **Monitoring** - is the most important security concept which results in accountability (verify explicitly).  Use this preview feature to start monitoring for GenAI apps in production - [Model monitoring for generative AI applications (preview) - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/how-to-monitor-generative-ai-applications?view=azureml-api-2)
