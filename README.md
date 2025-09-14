@@ -53,8 +53,7 @@ The purpose of this learning collection is to provide links to get you started o
 - [Navigating New Application Security Challenges Posed By GenAI](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/navigating-new-application-security-challenges-posed-by-genai/ba-p/4128243)
 - [GitHub Repo by Omar Santos](https://github.com/The-Art-of-Hacking/h4cker/tree/master/ai_research/AI%20Security%20Best%20Practices)
 - [Inside AI Security with Mark Russinovich](https://build.microsoft.com/en-US/sessions/d29a16d5-f9ea-4f5b-9adf-fae0bd688ff3?source=sessions)
-- https://journeyofthegeek.com/?s=openai&submit=Search
-- https://github.com/rod-trent/OpenAISecurity/tree/main/Must_Learn
+
 - [Not with a bug but with a sticker references](https://www.ram-shankar.com/papers)  
 
   
