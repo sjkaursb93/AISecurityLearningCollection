@@ -4,14 +4,6 @@ The purpose of this learning collection is to provide links to get you started o
 - LLMs Security Best Practices
 - AI Security best practices in General
 
-# Before you get started
-Keep in mind the principles of **Responsible AI.** The purpose of the RAI initiative is to provide the principles and practices to develop AI in a responsible manner. Use these links to be aware of RAI principles. 
-
-- [Overview of Responsible AI practices for Azure OpenAI models - Azure AI services](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/overview)
-- [Responsible AI for LLMs ](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/deploy-large-language-models-responsibly-with-azure-ai/ba-p/3876792)
-- [RAI Getting Started](https://github.com/sqlshep/RAI-Hack/blob/main/README.md)
-- Other RAI Frameworks
-     - [OpenAI Safety](https://openai.com/safety)
  
 
 
