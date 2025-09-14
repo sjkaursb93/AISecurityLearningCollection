@@ -54,6 +54,3 @@ The purpose of this learning collection is to provide links to get you started o
 - [GitHub Repo by Omar Santos](https://github.com/The-Art-of-Hacking/h4cker/tree/master/ai_research/AI%20Security%20Best%20Practices)
 - [Inside AI Security with Mark Russinovich](https://build.microsoft.com/en-US/sessions/d29a16d5-f9ea-4f5b-9adf-fae0bd688ff3?source=sessions)
 
-- [Not with a bug but with a sticker references](https://www.ram-shankar.com/papers)  
-
-  

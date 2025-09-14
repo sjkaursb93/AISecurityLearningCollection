@@ -1,5 +1,11 @@
 
 # Books
 
+
 - [Must Learn Collection by Rod Trent](https://github.com/rod-trent/OpenAISecurity/tree/main/Must_Learn): A curated set of essential resources, scripts, and educational materials for mastering Azure OpenAI security best practices.
+
+
+- [Not With a Bug, But With a Sticker](https://www.amazon.com/Not-Bug-But-Sticker-Learning/dp/1119883989): This book explores the intersection of machine learning, security, and adversarial attacks, providing insights into how AI systems can be manipulated and how to defend them.
+
+- [AIRT Lessons eBook](https://github.com/eugeniavkim/airt-lessons-paper/blob/main/MS_AIRT_Lessons_eBook.pdf): This eBook compiles key lessons and best practices from the Microsoft AI Red Team, focusing on real-world adversarial testing and security for AI systems.
 
