@@ -16,10 +16,8 @@ The purpose of this learning collection is to provide links to get you started o
 
 # LLM Security Guidance
 ## Attacks on LLMs
-- Check the updated guidance published by OWASP and MITRE. What is OWASP top 10 list – It is a list of top ten critical vulnerabilities often seen in LLM applications. To understand vulnerabilities, their potential impact, ease of exploitation etc, visit these links.
-    - [OWASP Top 10 for Large Language Model Applications | OWASP Foundation](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
-    - [OWASP ML top 10](https://owasp.org/www-project-machine-learning-security-top-10/)
-    - [ATLAS Matrix | MITRE ATLAS™](https://atlas.mitre.org/matrices/ATLAS/)
+
+    
     - I'd also recommend this [MSRC AI Bug Bar](https://www.microsoft.com/en-US/msrc/aibugbar?msockid=2374e47992096e7a2adef0c193de6fb5). It describes Microsoft severity classification for common vulnerability types for systems involving Artificial Intelligence or Machine Learning (AI/ML)
 
 ## Understanding the Risks and Attack Surfaces
