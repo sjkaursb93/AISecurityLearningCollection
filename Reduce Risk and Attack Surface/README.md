@@ -15,7 +15,13 @@ To mitigate the risks, first understand the risks. Use these resources to deepen
 
 ## Mitigation and Risk Reduction
 
-### Threat Modelling
+
+
+### Microsoft Guidance
 
 
 - [Microsoft Shared Responsibility for AI](https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility-ai): This resource explains the shared responsibility model for AI security in Azure, clarifying the roles and obligations of both cloud providers and customers to ensure secure and compliant AI deployments.
+
+- [Best Practices to Architect Secure Generative AI Applications](https://techcommunity.microsoft.com/blog/microsoft-security-blog/best-practices-to-architect-secure-generative-ai-applications/4116661): This Microsoft Security Blog post provides actionable guidance and best practices for designing, building, and deploying secure generative AI applications. It covers threat modeling, data protection, access control, monitoring, and compliance strategies to help organizations safeguard their AI solutions.
+
+### Azure AI Foundry
