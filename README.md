@@ -15,16 +15,9 @@ The purpose of this learning collection is to provide links to get you started o
 - **New Tools to Build Secure Gen AI Applications in Azure** - If you are using Azure AI Studio, tools such as prompt shields, groundness detection, saftey system messages can help you safeguard your applications.More details are available [here](https://azure.microsoft.com/en-us/blog/announcing-new-tools-in-azure-ai-to-help-you-build-more-secure-and-trustworthy-generative-ai-applications/) 
 
 # LLM Security Guidance
-## Attacks on LLMs
-
-    
-    - I'd also recommend this [MSRC AI Bug Bar](https://www.microsoft.com/en-US/msrc/aibugbar?msockid=2374e47992096e7a2adef0c193de6fb5). It describes Microsoft severity classification for common vulnerability types for systems involving Artificial Intelligence or Machine Learning (AI/ML)
 
 ## Understanding the Risks and Attack Surfaces
-- The first step – understand the attack. The next step what are the steps to prevent the attacks. Note: not one solution fits all. Something I have learnt and implemented over and over is what is the risk it poses to your organization. How you measure the risk, what are the compensating controls? I’ll add some links to this section to help you make that decision to a step forward to protect your AI solutions.
- 
-    - Here is a nice read on [Catastrophic AI Risks](https://www.safe.ai/ai-risk)
-    - Use [AI Incident Databases](https://incidentdatabase.ai/) to check the real world harms scenarios by deployment of AI Systems.
+
     - Use [AI Vulnerability Database](https://avidml.org/#:~:text=AI%20Vulnerability%20Database%20%28AVID%29%20is%20an%20open-source%20knowledge,for%20Artificial%20Intelligence%20%28AI%29%20models%2C%20datasets%2C%20and%20systems.). This is an open source knowledge base of failure modes for AI models, datasets and systems.
     - Use this [AI Risk Database](https://airisk.io/) to check the model in AI risk database.
 - Threat Modelling - – This guide [Threat Modeling LLM Applications - AI Village](https://aivillage.org/large%20language%20models/threat-modeling-llm/) explains how use trust boundaries and DFDs to do threat modelling for your LLMs. In addition, it also provides recommendations to remediate the vulnerabilities.
@@ -47,7 +40,7 @@ The purpose of this learning collection is to provide links to get you started o
 
 - [How to Evaluate LLMs: A Complete Metric Framework - Microsoft Research](https://www.microsoft.com/en-us/research/group/experimentation-platform-exp/articles/how-to-evaluate-llms-a-complete-metric-framework/)
 - [Securing Your LLM’s based Applications: Ways to Prevent Prompt Injection | by Aashir Javed | Medium](https://medium.com/@aashirjaved/securing-your-llms-based-applications-ways-to-prevent-prompt-injection-c9968472e7a8#:~:text=Ways%20to%20prevent%20prompt%20injection%201%20Sanitize%20the,Prompt%20debiasing%20...%204%20GPT-3%20vs%20GPT-4%20)
-- [AI Security 101](https://atlas.mitre.org/resources/ai-security-101#llm-security)
+
 - [Navigating New Application Security Challenges Posed By GenAI](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/navigating-new-application-security-challenges-posed-by-genai/ba-p/4128243)
 - [GitHub Repo by Omar Santos](https://github.com/The-Art-of-Hacking/h4cker/tree/master/ai_research/AI%20Security%20Best%20Practices)
 - [Inside AI Security with Mark Russinovich](https://build.microsoft.com/en-US/sessions/d29a16d5-f9ea-4f5b-9adf-fae0bd688ff3?source=sessions)
