@@ -19,19 +19,17 @@ The purpose of this learning collection is to provide links to get you started o
 ## Understanding the Risks and Attack Surfaces
 
 # Best Practices to Remediate vulnerabilities and reduce the attack surface
-- One of the best place to start is these [guidelines for creating secure AI systems](https://www.ncsc.gov.uk/files/Guidelines-for-secure-AI-system-development.pdf). These guidelines will help AI systems to function as intended, are available when needed and work without revealing the sensitive data to unauthorized parties.
+
 - Monitoring is important to detect and monitor the LLM interactions for any undesired behaviors.
     - [Monitoring models in production (preview) - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-model-monitoring?view=azureml-api-2)
     - [Monitor performance of models deployed to production (preview) - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-monitor-model-performance?view=azureml-api-2&tabs=azure-cli)
 
 - Use of Moderation API if using OpenAI [Moderation - OpenAI API](https://platform.openai.com/docs/guides/moderation) to evaluate use inputs before sending them to OpenAI’s completion or chat API.
 
-- [PyRIT for generative AI Red teaming](https://www.microsoft.com/en-us/security/blog/2024/02/22/announcing-microsofts-open-automation-framework-to-red-team-generative-ai-systems/)
 
 
 - [HiddenLayer Model Scanner](https://techcommunity.microsoft.com/t5/ai-ai-platform-blog/hiddenlayer-model-scanner-helps-developers-assess-the-security/ba-p/4140576) helps developers assess the security of open models in the model catalog
-- [LLMs Security Guidance](https://learn.microsoft.com/en-us/ai/playbook/technology-guidance/generative-ai/mlops-in-openai/security/security-recommend)
-- [LLMs Security Planning](https://learn.microsoft.com/en-us/ai/playbook/technology-guidance/generative-ai/mlops-in-openai/security/security-plan-llm-application)
+
 - [Understanding and Mitigating AI jailbreak attacks](https://www.microsoft.com/en-us/security/blog/2024/06/04/ai-jailbreaks-what-they-are-and-how-they-can-be-mitigated/)
 
 # Additional Resources
