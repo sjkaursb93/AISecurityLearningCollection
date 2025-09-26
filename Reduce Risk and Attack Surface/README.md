@@ -34,6 +34,8 @@ To mitigate the risks, first understand the risks. Use these resources to deepen
 
 - [Security Plan for LLM Application](https://learn.microsoft.com/en-us/ai/playbook/technology-guidance/generative-ai/mlops-in-openai/security/security-plan-llm-application): This Microsoft guide provides a comprehensive security plan for large language model (LLM) applications, covering risk assessment, threat modeling, secure development, and operational best practices for generative AI systems.
 
+-  [AI Jailbreaks: What They Are and How They Can Be Mitigated](https://www.microsoft.com/en-us/security/blog/2024/06/04/ai-jailbreaks-what-they-are-and-how-they-can-be-mitigated/): This Microsoft Security Blog post explains the concept of AI jailbreaks, how attackers bypass model safeguards, and the latest strategies and tools for mitigating these risks. It covers real-world examples, detection techniques, and best practices for defending generative AI systems against prompt injection and adversarial attacks.
+
 ### Azure AI Foundry
 
 
