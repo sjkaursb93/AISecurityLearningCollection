@@ -5,15 +5,6 @@ The purpose of this learning collection is to provide links to get you started o
 - AI Security best practices in General
 
  
-
-
-# When you start working on OpenAI Models in Azure
-- **Monitoring** - is the most important security concept which results in accountability (verify explicitly).  Use this preview feature to start monitoring for GenAI apps in production - [Model monitoring for generative AI applications (preview) - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/how-to-monitor-generative-ai-applications?view=azureml-api-2)
-
-
-- **Using Defender for cloud for to secure the AI applications** - It is the new [security posture and threat protection](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/secure-your-ai-applications-from-code-to-runtime-with-microsoft/ba-p/4127665) capabilities to enable organizations to protect their enterprise-built Gen AI applications through the entire life cycle.
-- **New Tools to Build Secure Gen AI Applications in Azure** - If you are using Azure AI Studio, tools such as prompt shields, groundness detection, saftey system messages can help you safeguard your applications.More details are available [here](https://azure.microsoft.com/en-us/blog/announcing-new-tools-in-azure-ai-to-help-you-build-more-secure-and-trustworthy-generative-ai-applications/) 
-
 # LLM Security Guidance
 
 ## Understanding the Risks and Attack Surfaces
@@ -34,7 +25,7 @@ The purpose of this learning collection is to provide links to get you started o
 
 # Additional Resources
 
-- [How to Evaluate LLMs: A Complete Metric Framework - Microsoft Research](https://www.microsoft.com/en-us/research/group/experimentation-platform-exp/articles/how-to-evaluate-llms-a-complete-metric-framework/)
+
 - 
 - [Securing Your LLM’s based Applications: Ways to Prevent Prompt Injection | by Aashir Javed | Medium](https://medium.com/@aashirjaved/securing-your-llms-based-applications-ways-to-prevent-prompt-injection-c9968472e7a8#:~:text=Ways%20to%20prevent%20prompt%20injection%201%20Sanitize%20the,Prompt%20debiasing%20...%204%20GPT-3%20vs%20GPT-4%20)
 
