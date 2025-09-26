@@ -15,11 +15,8 @@ The purpose of this learning collection is to provide links to get you started o
     - [Monitoring models in production (preview) - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-model-monitoring?view=azureml-api-2)
     - [Monitor performance of models deployed to production (preview) - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-monitor-model-performance?view=azureml-api-2&tabs=azure-cli)
 
-- Use of Moderation API if using OpenAI [Moderation - OpenAI API](https://platform.openai.com/docs/guides/moderation) to evaluate use inputs before sending them to OpenAI’s completion or chat API.
 
 
-
-- [HiddenLayer Model Scanner](https://techcommunity.microsoft.com/t5/ai-ai-platform-blog/hiddenlayer-model-scanner-helps-developers-assess-the-security/ba-p/4140576) helps developers assess the security of open models in the model catalog
 
 - [Understanding and Mitigating AI jailbreak attacks](https://www.microsoft.com/en-us/security/blog/2024/06/04/ai-jailbreaks-what-they-are-and-how-they-can-be-mitigated/)
 

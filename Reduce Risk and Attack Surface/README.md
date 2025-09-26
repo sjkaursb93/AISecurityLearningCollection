@@ -17,6 +17,8 @@ To mitigate the risks, first understand the risks. Use these resources to deepen
 
 - [NCSC Guidelines for Secure AI System Development](https://www.ncsc.gov.uk/files/Guidelines-for-secure-AI-system-development.pdf): This document from the UK National Cyber Security Centre provides comprehensive guidelines and best practices for building secure AI systems, covering risk management, threat modeling, secure design, and operational controls.
 
+ - [OpenAI Moderation Guide](https://platform.openai.com/docs/guides/moderation): This official OpenAI documentation explains how to use the Moderation endpoint to detect and filter harmful content in AI-generated outputs. It provides guidance on implementing automated content moderation to reduce risks, protect users, and ensure responsible deployment of AI systems.
+
 
 
 ### Microsoft Guidance
@@ -48,8 +50,7 @@ To mitigate the risks, first understand the risks. Use these resources to deepen
 
 - [Azure Content Safety Documentation](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/): For all other content safety features, refer to this link for comprehensive documentation and guidance on protecting users and data in AI applications.
 
-
----
+- [HiddenLayer Model Scanner](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/hiddenlayer-model-scanner-helps-developers-assess-the-security-of-open-models-in/4140576): This blog post introduces the HiddenLayer Model Scanner, a tool that helps developers assess the security of open AI models in Azure AI Foundry. It provides automated scanning and analysis to identify vulnerabilities, risks, and potential threats in model implementations, supporting safer deployment of open-source and third-party AI models.
 
 ## Additional Microsoft Security Resources
 
