@@ -9,3 +9,5 @@
 
 - [AIRT Lessons eBook](https://github.com/eugeniavkim/airt-lessons-paper/blob/main/MS_AIRT_Lessons_eBook.pdf): This eBook compiles key lessons and best practices from the Microsoft AI Red Team, focusing on real-world adversarial testing and security for AI systems.
 
+- [The coming wave](https://www.amazon.com/Coming-Wave-Technology-Twenty-first-Centurys/dp/0593593952)
+An urgent warning of the unprecedented risks that AI and other fast-developing technologies pose to global order, and how we might contain them while we have the chance—from a co-founder of the pioneering artificial intelligence company DeepMind and current CEO of Microsoft AI
